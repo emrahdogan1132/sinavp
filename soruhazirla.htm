@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Doğanlar Online Sınav Portal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="jquery" href="">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+  
+<header>
+
+<div class="container">
+  <div class="row">
+  <div class="col-lg-12">
+    
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.htm">DÖSP</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.htm">Anasayfa </a></li>
+        <li><a href="sinavlar.htm">Sınavlar</a></li>
+        <li><a href="iletisim.htm">İletişim</a></li>
+       
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li class="dropdown">
+          <a href="giris.htm"><span class="glyphicon glyphicon-log-in "></span>   Yönetici Giriş </a>
+          
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  </div>
+    </div>
+
+  </div>
+
+
+</div>
+
+
+</header>
+
+
+<div class="content">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12"><br><br>
+        <div id="sonuc"></div>
+        <br>
+        <h1>YÖNETİCİ PANELİ || SORU HAZIRLAMA</h1>
+        <hr>
+        <label>Soru ?</label>
+        <textarea type="text" id="txtsoru" class="form-control"  maxlength="100"></textarea><br>
+        
+        <div class="col-lg-6">
+        	
+        <label>   Şık A</label>
+        <input type="text" id="1" class="form-control"><br>
+        <label>   Şık C</label>
+        <input type="text" id="3" class="form-control"><br>
+        
+
+      </div>
+        <div class="col-lg-6">
+        <label>   Şık B</label>
+        <input type="text" id="2" class="form-control"><br>
+        <label>   Şık D</label>
+        <input type="text" id="4" class="form-control"><br>
+        <label>Cevap !</label><br>
+        <div class="col-bg-12 selectContainer">
+            <select class="form-control" name="cevap" id="cevap">
+                <option value="0" id="0" >Doğru Şıkkı Seçin</option>
+                <option value="1" id="1">A</option>
+                <option value="2" id="2">B</option>
+                <option value="3" id="3">C</option>
+                <option value="4" id="4">D</option>
+               
+            </select>
+        </div>
+       </div>
+<hr>
+
+       
+        <div class="col-lg-3" >
+          <button class="btn btn-success btn-block " id="btnEkle" >Ekle</button>
+      </div>
+      <div class="col-lg-3">
+      <button class="btn btn-warning btn-block" id="btnTemizle">Temizle</button>
+  </div>
+</div>
+
+        </div>
+      
+       
+
+<div class="col-lg-6"></div>
+
+</div>
+     
+
+    <div class="container">
+    	<div class="row">
+    		<div class="col-lg-12 ">
+    			<h1>Kayıtlar</h1>
+        <table class="table table-hover kenarlik tr" id="tbKayitlar" style="max-height:500px; ">
+        	
+          <tr class="bg-info">
+          	
+            <td>Soru</td>
+            <td>Şık A</td>
+            <td>Şık B</td>
+            <td>Şık C</td>
+            <td>Şık D</td>
+            <td>Doğru Cevap</td>
+            <td> Güncelle  veya  Sil</td>
+
+          </tr>
+          <tr>
+
+             <td>4+6= ?</td>
+            <td>9</td>
+            <td>7</td>
+            <td>18</td>
+            <td>10</td>
+            <td>D</td>
+            <td><button  class="btn btn-info glyphicon glyphicon-edit " id="btnDuzenle" 25px;"></button><button class="btn btn-danger glyphicon glyphicon-remove sil  "></button></td>
+          </tr>
+          <tr>
+            <td>Aşağıdakilerden hangisi işletim sistemi değildir ?</td>
+            <td>Linux</td>
+            <td>Windows</td>
+            <td>Word</td>
+            <td>OS</td>
+            <td>C</td>
+            <td><button class="btn btn-info glyphicon glyphicon-edit " ></button><button class="btn btn-danger glyphicon glyphicon-remove sil "></button></td>
+
+          </tr>
+          
+        </table>
+    		</div>
+    	</div>
+
+    </div>
+    </div>
+    
+  </div>
+  
+  
+</div>
+<footer>
+  <p style="text-align: center;">Doğanlar Online Sınav Portalı | Tüm Hakları Saklıdır</p>
+</footer>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+<script src="js/jquery-3.2.1.js"></script>
+  <script>
+    
+    $(function () {
+
+        $("#btnEkle").click(function () {
+        var Soru = $("#txtsoru").val();
+        var a = $("#1").val();
+        var b = $("#2").val();
+        var c = $("#3").val();
+        var d = $("#4").val();
+        var cevap = $("#cevap").val();
+        if (Soru == ""|| a == "" || b == "" || c == "" || d == "" || cevap == "") {
+          $("#sonuc").fadeIn(1000);
+          $("#sonuc").html("Lütfen Tüm Alanları Doldurunuz!");
+          $("#sonuc").removeClass();
+          $("#sonuc").addClass("alert alert-danger");
+          $("#sonuc").fadeOut(3000);
+          return false;
+        }
+        $("#tbKayitlar").append("<tr><td>" + Soru + "</td><td>" + a + "</td><td>" + b + "</td><td>" + c + "</td><td>" + d + "</td><td>" + cevap + "</td><td><button  class='btn btn-info glyphicon glyphicon-edit '></button><button class='btn btn-danger glyphicon glyphicon-remove sil  '></button></td></tr> ");
+    });
+
+
+
+      
+
+
+      $(document).on("click", ".sil", function () {
+        var satir = $(this).closest("tr");
+        satir.remove();
+      });
+
+      $("#btnTemizle").click(function () {
+        $("input:text, textarea, select").val("");
+
+        return false;
+      });
+
+    });
+
+    
+  
+  </script>
+
+
+
+
+
+
+
+
+</body>
+</html>
