@@ -1,17 +1,24 @@
 Merhabalar Hocam
 
+linki yanlÄ±ÅŸ atmÄ±sÄ±m Ã¶nizleme linki asagÄ±dadÄ±r
+
+
+https://emrahdogan1132.github.io/sinavp/
+
+
+
 admin giris
 
-kullanıcı adı:emrah	
+kullanÄ±cÄ± adÄ±:emrah	
       sifresi:emrah
 
 
-Güncelle butonu pasiftir şuanda kendim yazılımı gelistireceğim için suan yapmadım
+GÃ¼ncelle butonu pasiftir ÅŸuanda kendim yazÄ±lÄ±mÄ± gelistireceÄŸim iÃ§in suan yapmadÄ±m
 
 
 
 
-Ödevi Teslim Eden:
+Ã–devi Teslim Eden:
 
-Emrah Doğan    20171132061
+Emrah DoÄŸan    20171132061
 
